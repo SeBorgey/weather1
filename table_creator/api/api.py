@@ -4,7 +4,7 @@ from weather.table_creator.api.constants import BASE_URL, AUTHORISATION
 
 
 class API:
-    def __init__(self, url='''https://www.googleapis.com/youtube/v3/search''', aut=AUTHORISATION):
+    def __init__(self, url=BASE_URL, aut=AUTHORISATION):
         self.url = url
         self.aut = aut
 
